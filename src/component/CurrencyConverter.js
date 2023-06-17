@@ -9,7 +9,7 @@ const CurrencyConvertor = () => {
 
   useEffect(() => {
     // Fetch currency options from API
-    fetch('https://api.exchangerate-api.com/v4/latest/USD')
+    fetch('')
       .then(response => response.json())
       .then(data => {
         setCurrencyOptions(Object.keys(data.rates));
