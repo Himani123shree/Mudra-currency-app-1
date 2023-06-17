@@ -14,7 +14,7 @@ const CountryCurrencyApi = () => {
  useEffect(() => {
     const fetchCountries = async () => {
       try {
-        const response = await axios.get('https://restcountries.com/v2/all');
+        const response = await axios.get('');
         setCountries(response.data);
         setErrors(null);
       } catch (errors) {
