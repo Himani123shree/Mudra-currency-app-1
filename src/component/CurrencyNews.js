@@ -6,8 +6,8 @@ const CurrencyNews = () => {
 
   useEffect(() => {
     const fetchCurrencyNews = async () => {
-      const apiKey = '59cb7ccfd8b24ac183f99721751768c4';
-      const url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${apiKey}`;
+      const apiKey = '';
+      const url = ``;
 
       try {
         const response = await fetch(url);
